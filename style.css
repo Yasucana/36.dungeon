@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  background: #222;
+  color: #fff;
+  text-align: center;
+}
+#game {
+  display: grid;
+  grid-template-columns: repeat(20, 20px);
+  grid-template-rows: repeat(20, 20px);
+  margin: auto;
+  width: 400px;
+}
+.cell {
+  width: 20px;
+  height: 20px;
+}
+.floor { background: #444; }
+.wall { background: #111; }
+.player { background: lime; }
+.item { background: gold; }
+.enemy { background: red; }
+.stair { background: green; }
+#controls {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #aaa;
+}
